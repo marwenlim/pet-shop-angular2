@@ -1,0 +1,33 @@
+{
+  "name": "pet-shop-angular2",
+  "scripts": {
+  },
+  "env": {
+    "CODESHIP_ID": {
+      "required": true
+    },
+    "LIBRATO_PASSWORD": {
+      "required": true
+    },
+    "LIBRATO_TOKEN": {
+      "required": true
+    },
+    "LIBRATO_USER": {
+      "required": true
+    },
+    "MONGODB_URI": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "codeship",
+    "librato",
+    "logentries",
+    "mongolab"
+  ],
+  "buildpacks": [
+
+  ]
+}
